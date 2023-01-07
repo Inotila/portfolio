@@ -1,0 +1,116 @@
+/* general */
+
+html {
+    height: 100% !important;
+}
+
+body {
+    background-color: #F5F5F5 !important;
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none !important;
+    color: #F5F5F5 !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+h1 {
+    font-family: send flowers;
+    font-size: 5rem;
+}
+
+.row {
+    margin: 0px;
+}
+
+.col {
+    padding: 0px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.off-padding {
+    padding: 0px !important;
+}
+
+.override-a-defualt {
+    color: #000 !important;
+}
+
+
+/*--------------------------- nav bar ----------------------- */
+nav {
+    background-color: #000;
+    color: #F5F5F5;
+    font-family: Oswald;
+    font-weight: 200;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.navbar-toggler {
+    padding: 0px;
+    font-size: 1.25rem;
+    background-color: #000;
+    color: #F5F5F5 !important;
+    border: none;
+}
+
+#nav-img{
+    height: 7vw;
+    width: auto;
+}
+
+/* logo */
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    font-family: Oswald;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+}
+
+/* right/catergory section */
+
+.justify-content-end>li {
+    margin: 0.5rem;
+}
+
+.dropdown-menu{
+    right: 0 !important;
+    left: auto;
+    min-width: 0 !important;
+}
+
+/*----------------- footer --------------- */
+footer {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-family: Oswald;
+    font-weight: 200;
+}
+
+.social-media {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#email-footer-span{
+    color: #F5F5F5;
+}
+
