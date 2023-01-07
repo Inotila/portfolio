@@ -18,13 +18,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Lato&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Inotila Nghaamwa Portfolio</title>
 </head>
 
 <body class="d-flex flex-column h-100">
-    <header>
-        <h1>Inotila Nghaamwa</h1>
-    </header>
+    <nav class="navbar d-block" role="navigation">
+        <div class="row w-100 d-flex flex-row">
+            <div class="col-4">
+                <div class="logo navbar-brand text-left">
+                    <a href="#">Inotila Nghaamwa</a>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <img id="nav-img" src="assets/images/inowhite.png" alt="nav-logo-img">
+            </div>
+            <div id="nav-options-link" class="col-4 d-flex justify-content-end off-padding">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="navbar-nav w-auto mx-auto">
+                            <li class="nav-item dropdown d-lg-flex flex-lg-row">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link activen" aria-current="page" href="#">Projects</a>
+                                <a class="nav-link active" aria-current="page" href="#">About me</a>
+                                <a class="" href="#" id="nav-menu-link" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                </a>
+                                <div class="dropdown-menu border-0" aria-labelledby="nav-menu-link">
+                                    <a class="" href="#" id="home-nav-link" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <a class="" href="#" id="projects-nav-link" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Projects
+                                    </a>
+                                    <a class="" href="#" id="about-me-nav-link" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        About me
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
+    </nav>
     <div>
         body
     </div>
@@ -33,8 +75,8 @@
         <p class="m-0 text-center social-media">Find me:
             <a href="https://www.linkedin.com/in/inotila-nghaamwa/" target="_blank" rel="noopener"><i
                     class="fab fa-linkedin" id="linkedIn" aria-label="A link to linkedin profile"></i></a>
-            <a href="https://github.com/Inotila" target="_blank" rel="noopener"><i
-                    class="fab fa-github" id="git" aria-label="A link to github profile"></i></a>
+            <a href="https://github.com/Inotila" target="_blank" rel="noopener"><i class="fab fa-github" id="git"
+                    aria-label="A link to github profile"></i></a>
         </p>
         <p class="m-0 text-center text-muted privacy-copyright-text">
             <a href="https://www.privacypolicygenerator.info/live.php?token=pv9dRiKKr2GFN3kv7aNg3HgdE8lL288d"
