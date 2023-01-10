@@ -19,11 +19,6 @@ a:hover{
     text-decoration: none !important;
 }
 
-h1 {
-    font-family: send flowers;
-    font-size: 5rem;
-}
-
 .row {
     margin: 0px;
 }
@@ -64,19 +59,19 @@ nav {
     border: none;
 }
 
-#nav-img{
-    height: 7vw;
-    width: auto;
-}
+/* --- logo --- */
 
-/* logo */
-
-.logo {
+#logo-text {
     position: absolute;
     bottom: 0;
     font-family: Oswald;
     font-weight: 400;
     margin: 0.5rem;
+}
+
+#nav-img{
+    height: 7vw;
+    width: auto;
 }
 
 .navbar-brand {
