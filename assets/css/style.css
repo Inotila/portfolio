@@ -158,7 +158,7 @@ footer {
 }
 
 #profession-header {
-    text-transform:uppercase;
+    text-transform: uppercase;
     text-decoration: underline;
 }
 
@@ -175,10 +175,10 @@ footer {
     width: 10rem;
     color: #F5F5F5;
     background-color: #000 !important;
-    font-weight:500 !important;
+    font-weight: 500 !important;
 }
 
-/* --- about me --- */
+/* --- profile--- */
 
 #about-me-banner-img {
     background-image: url('../images/photos/inotila.jpg');
@@ -190,8 +190,58 @@ footer {
     border-radius: 50%;
 }
 
+.profile-row {
+    background-color: aquamarine;
+    height: 5rem;
+}
+
+.profile-headings {
+    background-color: red;
+}
+
+.profile-headings-sub-div {
+    background-color: darkgoldenrod;
+}
+
+.profile-heading-text {
+    width: 9rem;
+    padding: 28px 0;
+}
+
+.skill-blocks {
+    background-color: yellow;
+    width: 100%;
+    height: 3rem;
+}
+
+.skill-blocks-sub-div {
+    background-color: rgb(86, 115, 119);
+    width: 3rem;
+    height: 3rem;
+}
+
+.skill-img {
+    background-color: green;
+    z-index: 9999999999999;
+}
+
+.skill-text {
+    background-color: blueviolet;
+    z-index: 9999999999999;
+}
+
 .software-and-tolls {
     /* width: 50%; */
+}
+
+#html-skill-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/html.png');
 }
 
 @media (max-width: 425px) {
