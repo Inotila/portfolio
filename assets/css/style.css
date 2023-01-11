@@ -15,7 +15,7 @@ a {
     color: #F5F5F5 !important;
 }
 
-a:hover{
+a:hover {
     text-decoration: none !important;
 }
 
@@ -70,7 +70,7 @@ nav {
     margin: 0.5rem;
 }
 
-#nav-img{
+#nav-img {
     height: 5rem;
     width: auto;
 }
@@ -87,7 +87,7 @@ nav {
     margin: 0.5rem;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     right: 0 !important;
     left: auto;
     min-width: 0 !important;
@@ -106,14 +106,14 @@ footer {
     font-weight: 400;
 }
 
-#email-footer-span{
+#email-footer-span {
     color: #F5F5F5;
 }
 
 /* homepage */
 
-#banner-img{
-    background-image: url('../images/ati.jpg');
+#banner-img {
+    background-image: url('../images/photos/ati.jpg');
     display: inline-block;
     width: 30vh;
     height: 30vh;
@@ -122,9 +122,53 @@ footer {
     border-radius: 50%;
 }
 
+#language-img-container {
+    position: absolute;
+    bottom: 0;
+}
+
+.language-img {
+    float: left;
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+}
+
+#html-img {
+    background-image: url('../images/icons/html.png');
+    display: inline-block;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#css-img {
+    background-image: url('../images/icons/css.png');
+    display: inline-block;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#js-img {
+    background-image: url('../images/icons/js.png');
+    display: inline-block;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#python-img {
+    background-image: url('../images/icons/python.png');
+    display: inline-block;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
 @media (max-width: 425px) {
-    #nav-img{
-    height: 4rem;
-    margin-left: 1rem;
+    #nav-img {
+        height: 4rem;
+        margin-left: 1rem;
     }
 }
