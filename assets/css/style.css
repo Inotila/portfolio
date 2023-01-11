@@ -110,6 +110,18 @@ footer {
     color: #F5F5F5;
 }
 
+/* homepage */
+
+#banner-img{
+    background-image: url('../images/ati.jpg');
+    display: inline-block;
+    width: 30vh;
+    height: 30vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
 @media (max-width: 425px) {
     #nav-img{
     height: 4rem;
