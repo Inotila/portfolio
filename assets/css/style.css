@@ -178,6 +178,22 @@ footer {
     font-weight:500 !important;
 }
 
+/* --- about me --- */
+
+#about-me-banner-img {
+    background-image: url('../images/photos/inotila.jpg');
+    display: inline-block;
+    width: 30vh;
+    height: 30vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.software-and-tolls {
+    /* width: 50%; */
+}
+
 @media (max-width: 425px) {
     #nav-img {
         height: 4rem;
