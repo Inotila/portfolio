@@ -10,6 +10,10 @@ body {
     font-weight: 400;
 }
 
+h1 {
+    font-size: 2.5rem !important;
+}
+
 a {
     text-decoration: none !important;
     color: #F5F5F5 !important;
@@ -132,43 +136,55 @@ footer {
     z-index: 99999999;
     width: 3rem;
     height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
 }
 
 #html-img {
     background-image: url('../images/icons/html.png');
-    display: inline-block;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
 }
 
 #css-img {
     background-image: url('../images/icons/css.png');
-    display: inline-block;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
 }
 
 #js-img {
     background-image: url('../images/icons/js.png');
-    display: inline-block;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
 }
 
 #python-img {
     background-image: url('../images/icons/python.png');
-    display: inline-block;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
+}
+
+#profession-header {
+    text-transform:uppercase;
+    text-decoration: underline;
+}
+
+.welcoming-text {
+    width: 50%;
+}
+
+.home-page-btn-container {
+    text-transform: uppercase;
+}
+
+.homepage-btn {
+    margin-right: 0.5rem;
+    width: 10rem;
+    color: #F5F5F5;
+    background-color: #000 !important;
+    font-weight:500 !important;
 }
 
 @media (max-width: 425px) {
     #nav-img {
         height: 4rem;
         margin-left: 1rem;
+    }
+
+    .welcoming-text {
+        width: 100%;
     }
 }
