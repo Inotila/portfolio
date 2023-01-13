@@ -234,7 +234,7 @@ footer {
     /* width: 50%; */
 }
 
-#html-skill-img {
+.html-skill-img {
     z-index: 99999999;
     width: 3rem;
     height: 3rem;
@@ -242,6 +242,56 @@ footer {
     background-size: cover;
     border-radius: 50%;
     background-image: url('../images/icons/html.png');
+}
+
+.html-skill-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/html.png');
+}
+
+.html-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/html.png');
+}
+
+.css-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/css.png');
+}
+
+.js-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/js.png');
+}
+
+.python-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/python.png');
 }
 
 @media (max-width: 425px) {
