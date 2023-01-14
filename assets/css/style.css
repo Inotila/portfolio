@@ -114,145 +114,7 @@ footer {
     color: #F5F5F5;
 }
 
-/* homepage */
-
-#banner-img {
-    background-image: url('../images/photos/ati.jpg');
-    display: inline-block;
-    width: 30vh;
-    height: 30vh;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
-}
-
-#language-img-container {
-    position: absolute;
-    bottom: 0;
-}
-
-.language-img {
-    float: left;
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
-}
-
-#html-img {
-    background-image: url('../images/icons/html.png');
-}
-
-#css-img {
-    background-image: url('../images/icons/css.png');
-}
-
-#js-img {
-    background-image: url('../images/icons/js.png');
-}
-
-#python-img {
-    background-image: url('../images/icons/python.png');
-}
-
-#profession-header {
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.welcoming-text {
-    width: 50%;
-}
-
-.home-page-btn-container {
-    text-transform: uppercase;
-}
-
-.homepage-btn {
-    margin-right: 0.5rem;
-    width: 10rem;
-    color: #F5F5F5;
-    background-color: #000 !important;
-    font-weight: 500 !important;
-}
-
-/* --- profile--- */
-
-#about-me-banner-img {
-    background-image: url('../images/photos/inotila.jpg');
-    display: inline-block;
-    width: 30vh;
-    height: 30vh;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
-}
-
-.profile-row {
-    background-color: aquamarine;
-    height: 5rem;
-}
-
-.profile-headings {
-    background-color: red;
-}
-
-.profile-headings-sub-div {
-    background-color: darkgoldenrod;
-}
-
-.profile-heading-text {
-    width: 9rem;
-    padding: 28px 0;
-}
-
-.skill-blocks {
-    background-color: yellow;
-    width: 100%;
-    height: 3rem;
-}
-
-.skill-blocks-sub-div {
-    background-color: rgb(86, 115, 119);
-    width: 3rem;
-    height: 3rem;
-}
-
-.skill-img {
-    background-color: green;
-    z-index: 9999999999999;
-}
-
-.skill-text {
-    background-color: blueviolet;
-    z-index: 9999999999999;
-}
-
-.software-and-tolls {
-    /* width: 50%; */
-}
-
-.html-skill-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url('../images/icons/html.png');
-}
-
-.html-skill-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url('../images/icons/html.png');
-}
+/* --- icons --- */
 
 .html-img {
     z-index: 99999999;
@@ -292,6 +154,183 @@ footer {
     background-size: cover;
     border-radius: 50%;
     background-image: url('../images/icons/python.png');
+}
+
+.postgres-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/postgresql.png');
+}
+
+.node-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/node.png');
+}
+
+.figma-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/figma.png');
+}
+
+.xd-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/adobexd.png');
+}
+
+.pen-and-paper-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/penandpaper.png');
+}
+
+.jquery-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/jquery.png');
+}
+
+.json-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/json.png');
+}
+
+.git-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/git.png');
+}
+
+.rest-img {
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('../images/icons/rest.png');
+}
+
+/* homepage */
+
+#banner-img {
+    background-image: url('../images/photos/ati.jpg');
+    display: inline-block;
+    width: 30vh;
+    height: 30vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#language-img-container {
+    position: absolute;
+    bottom: 0;
+}
+
+.language-img {
+    float: left;
+    z-index: 99999999;
+    width: 3rem;
+    height: 3rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#profession-header {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.welcoming-text {
+    width: 50%;
+}
+
+.home-page-btn-container {
+    text-transform: uppercase;
+}
+
+.homepage-btn {
+    margin-right: 0.5rem;
+    width: 10rem;
+    color: #F5F5F5;
+    background-color: #000 !important;
+    font-weight: 500 !important;
+}
+
+/* --- profile--- */
+
+#about-me-banner-img {
+    background-image: url('../images/photos/inotila.jpg');
+    display: inline-block;
+    width: 30vh;
+    height: 30vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-row {
+    height: 5rem;
+}
+
+.profile-heading-text {
+    width: 9rem;
+    padding: 28px 0;
+}
+
+.skill-blocks {
+    width: 100%;
+    height: 3rem;
+}
+
+.skill-blocks-sub-div {
+    width: 5rem;
+    height: 3rem;
+}
+
+.skill-text {
+    text-align: center;
+}
+
+.software-and-tolls {
+    /* width: 50%; */
 }
 
 @media (max-width: 425px) {
