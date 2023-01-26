@@ -306,14 +306,17 @@ footer {
     border-radius: 50%;
 }
 
-.profile-row {
-    height: 5rem;
-}
-
 .profile-heading-text {
     width: 9rem;
     padding: 28px 0;
+    float: left;
 }
+
+.skill-row {
+    width: 100%;
+}
+
+/*
 
 .skill-blocks {
     width: 100%;
@@ -327,13 +330,14 @@ footer {
 
 .skill-text {
     text-align: center;
-}
+} */
 
 .software-and-tolls {
     /* width: 50%; */
 }
 
 @media (max-width: 425px) {
+
     #nav-img {
         height: 4rem;
         margin-left: 1rem;
@@ -341,5 +345,85 @@ footer {
 
     .welcoming-text {
         width: 100%;
+    }
+
+    .html-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .css-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .js-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .python-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .postgres-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .node-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .figma-img {
+        width: 1.5rem;
+        height: 1.5rem;
+
+    }
+
+    .xd-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .pen-and-paper-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .jquery-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .json-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .git-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .rest-img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .profile-heading-text {
+        float: none;
+        padding: 0;
+        width: 100%;
+    }
+
+    #design-tools-heading {
+        position: unset;
+    }
+
+    .skill-text {
+        font-size: 14px;
     }
 }
