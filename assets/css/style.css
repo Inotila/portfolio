@@ -316,6 +316,13 @@ footer {
     width: 100%;
 }
 
+.hr-in-skill-row{
+    visibility: hidden;
+}
+
+.hr-between-skill-and-profile{
+    visibility: hidden;
+}
 /*
 
 .skill-blocks {
@@ -417,6 +424,10 @@ footer {
         float: none;
         padding: 0;
         width: 100%;
+    }
+    
+    .hr-between-skill-and-profile{
+        visibility:visible;
     }
 
     #design-tools-heading {
