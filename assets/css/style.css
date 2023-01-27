@@ -321,7 +321,10 @@ footer {
 }
 
 .hr-between-skill-and-profile{
-    visibility: hidden;
+     margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 0px solid rgba(0,0,0,.0);
 }
 /*
 
@@ -353,6 +356,8 @@ footer {
     .welcoming-text {
         width: 100%;
     }
+
+    /* --- icons --- */
 
     .html-img {
         width: 1.5rem;
@@ -420,6 +425,8 @@ footer {
         height: 1.5rem;
     }
 
+    /* --- profile --- */
+
     .profile-heading-text {
         float: none;
         padding: 0;
@@ -427,11 +434,24 @@ footer {
     }
     
     .hr-between-skill-and-profile{
-        visibility:visible;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+
+    .hr-in-skill-row{
+        display: none;
     }
 
     #design-tools-heading {
         position: unset;
+    }
+
+    .skill-block-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .skill-text {
