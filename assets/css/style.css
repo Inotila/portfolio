@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #F5F5F5 !important;
+    background-color: #dad7d7 !important;
     font-family: Oswald;
     font-weight: 400;
 }
@@ -349,16 +349,9 @@ footer {
 
 /* --- projects --- */
 
-.project-col-one {
-    background-color: aqua;
-}
-
-.project-col-two {
-    background-color: coral;
-}
-
-.project-col-three {
-    background-color: rgb(123, 255, 0);
+.project-col-border{
+    background-color: #f0efef;
+   border-radius: 5%;
 }
 
 .project-img-circle {
