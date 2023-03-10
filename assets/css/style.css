@@ -318,6 +318,10 @@ footer {
     float: left;
 }
 
+.mantra-text-div{
+    width: 75%;
+}
+
 .skill-row {
     width: 100%;
 }
@@ -485,4 +489,9 @@ footer {
     .skill-text {
         font-size: 14px;
     }
+
+    .mantra-text-div{
+        width: 100%;
+    }
+    
 }
