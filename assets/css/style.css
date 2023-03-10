@@ -386,6 +386,10 @@ footer {
     background-size: contain !important;
 }
 
+#context-img{
+    background-image: url('../images/projects/context.jpg');
+}
+
 @media (max-width: 425px) {
 
     #nav-img {
