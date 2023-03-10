@@ -372,7 +372,7 @@ footer {
     border: 2px solid #000;
 }
 
-#byinoati-img{
+#byinoati-img , #byinoati-prototype-img{
     background-image: url('../images/projects/byinoati.png');
 }
 
@@ -388,6 +388,11 @@ footer {
 
 #context-img{
     background-image: url('../images/projects/context.jpg');
+}
+
+#insta-assistant-img{
+    background-image: url('../images/projects/insta-assitant.jpg');
+    background-size: contain !important;
 }
 
 @media (max-width: 425px) {
