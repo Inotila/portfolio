@@ -379,7 +379,11 @@ footer {
 #five-thousand-img{
     background-image: url('../images/projects/fivethousand.png');
     background-color: #ecc30d !important;
-    /* background-size: 10rem 5rem !important; */
+}
+
+#alchemist-tours-img{
+    background-image: url('../images/projects/alchemisttours.jpg');
+    background-size: contain !important;
 }
 
 @media (max-width: 425px) {
