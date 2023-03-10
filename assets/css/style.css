@@ -275,7 +275,6 @@ footer {
 
 #profession-header {
     text-transform: uppercase;
-    text-decoration: underline;
 }
 
 .welcoming-text {
@@ -292,6 +291,12 @@ footer {
     color: #F5F5F5;
     background-color: #000 !important;
     font-weight: 500 !important;
+}
+
+.homepage-btn:hover {
+    color: #000 !important;
+    background-color:#F5F5F5 !important;
+    border: 1px solid #000;
 }
 
 /* --- profile--- */
