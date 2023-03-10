@@ -316,16 +316,17 @@ footer {
     width: 100%;
 }
 
-.hr-in-skill-row{
+.hr-in-skill-row {
     visibility: hidden;
 }
 
-.hr-between-skill-and-profile{
-     margin-top: 0;
+.hr-between-skill-and-profile {
+    margin-top: 0;
     margin-bottom: 0;
     border: 0;
-    border-top: 0px solid rgba(0,0,0,.0);
+    border-top: 0px solid rgba(0, 0, 0, .0);
 }
+
 /*
 
 .skill-blocks {
@@ -344,6 +345,30 @@ footer {
 
 .software-and-tolls {
     /* width: 50%; */
+}
+
+/* --- projects --- */
+
+.project-col-one {
+    background-color: aqua;
+}
+
+.project-col-two {
+    background-color: coral;
+}
+
+.project-col-three {
+    background-color: rgb(123, 255, 0);
+}
+
+.project-img-circle {
+   background-color: brown;
+    display: inline-block;
+    width: 20vh;
+    height: 20vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
 }
 
 @media (max-width: 425px) {
@@ -432,15 +457,15 @@ footer {
         padding: 0;
         width: 100%;
     }
-    
-    .hr-between-skill-and-profile{
+
+    .hr-between-skill-and-profile {
         margin-top: 1rem;
         margin-bottom: 1rem;
         border: 0;
-        border-top: 1px solid rgba(0,0,0,.1);
+        border-top: 1px solid rgba(0, 0, 0, .1);
     }
 
-    .hr-in-skill-row{
+    .hr-in-skill-row {
         display: none;
     }
 
@@ -448,7 +473,7 @@ footer {
         position: unset;
     }
 
-    .skill-block-container{
+    .skill-block-container {
         display: flex;
         align-items: center;
         justify-content: center;
