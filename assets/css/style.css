@@ -126,123 +126,60 @@ footer {
     background-image: url('../images/icons/html.png');
 }
 
-.css-img {
+.icon-img-base-css{
     z-index: 99999999;
     width: 3rem;
     height: 3rem;
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 50%;
+}
+
+.css-img {
     background-image: url('../images/icons/css.png');
 }
 
 .js-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/js.png');
 }
 
 .python-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/python.png');
 }
 
 .postgres-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/postgresql.png');
 }
 
 .node-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/node.png');
 }
 
 .figma-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/figma.png');
 }
 
 .xd-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/adobexd.png');
 }
 
 .pen-and-paper-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/penandpaper.png');
 }
 
 .jquery-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/jquery.png');
 }
 
 .json-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/json.png');
 }
 
 .git-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/git.png');
 }
 
 .rest-img {
-    z-index: 99999999;
-    width: 3rem;
-    height: 3rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    border-radius: 50%;
     background-image: url('../images/icons/rest.png');
 }
 
