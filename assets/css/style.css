@@ -116,7 +116,7 @@ footer {
 
 /* --- icons --- */
 
-.icon-img-base-css{
+.icon-img-base-css {
     z-index: 99999999;
     width: 3rem;
     height: 3rem;
@@ -204,15 +204,15 @@ footer {
     border-radius: 50%;
 }
 
-.social-icons-in-body{
+.social-icons-in-body {
     font-size: 2rem;
 }
 
-.linkedIn-main{
+.linkedIn-main {
     color: #0072b1;
 }
 
-.git-main{
+.git-main {
     color: #000;
 }
 
@@ -238,8 +238,41 @@ footer {
 
 .homepage-btn:hover {
     color: #000 !important;
-    background-color:#F5F5F5 !important;
+    background-color: #F5F5F5 !important;
     border: 1px solid #000;
+}
+
+/* --- new home page --- */
+
+.section-col-div {
+    background-color: #F5F5F5 !important;
+}
+
+.profile-section {
+    width: 100%;
+}
+
+#my-profile-section {
+    height: 60vh;
+    border-radius: 5%;
+}
+
+#skills-section {
+    background-color: #2fbe2f;
+}
+
+#projects-section {
+    background-color: #202da7;
+}
+
+.nested-col {
+    padding-right: 0 !important;
+}
+
+.profile-and-project-div {
+    width: 100%;
+    height: 1rem;
+    background-color: #dad7d7;
 }
 
 /* --- profile--- */
@@ -261,7 +294,7 @@ footer {
     float: left;
 }
 
-.mantra-text-div{
+.mantra-text-div {
     width: 75%;
 }
 
@@ -282,13 +315,13 @@ footer {
 
 /* --- projects --- */
 
-.project-col-border{
+.project-col-border {
     background-color: #f0efef;
-   border-radius: 5%;
+    border-radius: 5%;
 }
 
 .project-img-circle {
-   background-color: #fff;
+    background-color: #fff;
     display: inline-block;
     width: 20vh;
     height: 20vh;
@@ -298,25 +331,26 @@ footer {
     border: 2px solid #000;
 }
 
-#byinoati-img , #byinoati-prototype-img{
+#byinoati-img,
+#byinoati-prototype-img {
     background-image: url('../images/projects/byinoati.png');
 }
 
-#five-thousand-img{
+#five-thousand-img {
     background-image: url('../images/projects/fivethousand.png');
     background-color: #ecc30d !important;
 }
 
-#alchemist-tours-img{
+#alchemist-tours-img {
     background-image: url('../images/projects/alchemisttours.jpg');
     background-size: contain !important;
 }
 
-#context-img{
+#context-img {
     background-image: url('../images/projects/context.jpg');
 }
 
-#insta-assistant-img{
+#insta-assistant-img {
     background-image: url('../images/projects/insta-assitant.jpg');
     background-size: contain !important;
 }
@@ -341,7 +375,7 @@ footer {
 
     /* --- profile --- */
 
-    .skill-heading{
+    .skill-heading {
         text-align: center;
     }
 
@@ -376,8 +410,8 @@ footer {
         font-size: 14px;
     }
 
-    .mantra-text-div{
+    .mantra-text-div {
         width: 100%;
     }
-    
+
 }
