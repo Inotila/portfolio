@@ -246,22 +246,11 @@ footer {
 
 .section-col-div {
     background-color: #F5F5F5 !important;
+    border-radius: 10px;
 }
 
 .profile-section {
     width: 100%;
-}
-
-#my-profile-section {
-    border-radius: 5%;
-}
-
-#skills-section {
-    background-color: #2fbe2f;
-}
-
-#projects-section {
-    background-color: #202da7;
 }
 
 .nested-col {
@@ -295,10 +284,6 @@ footer {
 
 .mantra-text-div {
     width: 75%;
-}
-
-.skill-row {
-    width: 100%;
 }
 
 .hr-in-skill-row {
