@@ -298,6 +298,25 @@ footer {
     border-top: 0px solid rgba(0, 0, 0, .0);
 }
 
+.up-btn{
+    z-index: 99999999;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5vh;
+    height: 5vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.fa-arrow-up{
+    color: #000;
+    font-size: 2rem;
+}
+
 
 
 /* --- projects --- */
