@@ -296,11 +296,14 @@ footer {
     border-top: 0px solid rgba(0, 0, 0, .0);
 }
 
+
+
 /* --- projects --- */
 
 .project-col-border {
-    background-color: #f0efef;
-    border-radius: 5%;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border: 1px solid #acacac ;
 }
 
 .project-img-circle {
@@ -312,6 +315,10 @@ footer {
     background-size: cover;
     border-radius: 50%;
     border: 2px solid #000;
+}
+
+.skill-content-container{
+    max-width: 100%;
 }
 
 #byinoati-img,
