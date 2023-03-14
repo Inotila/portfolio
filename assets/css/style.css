@@ -179,6 +179,10 @@ footer {
 
 /* homepage */
 
+#my-profile-section{
+    height: 100%;
+}
+
 #banner-img {
     background-image: url('../images/photos/ati.jpg');
     display: inline-block;
@@ -241,8 +245,6 @@ footer {
     border: 1px solid #000;
 }
 
-/* --- new home page --- */
-
 .section-col-div {
     background-color: #F5F5F5 !important;
     border-radius: 10px;
@@ -265,7 +267,7 @@ footer {
 /* --- profile--- */
 
 #about-me-banner-img {
-    background-image: url('../images/photos/inotila.jpg');
+    background-image: url('../images/photos/ati.jpg');
     display: inline-block;
     width: 30vh;
     height: 30vh;
