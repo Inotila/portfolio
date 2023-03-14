@@ -229,7 +229,6 @@ footer {
 }
 
 .homepage-btn {
-    margin-right: 0.5rem;
     width: 10rem;
     color: #F5F5F5;
     background-color: #000 !important;
@@ -337,6 +336,14 @@ footer {
 #insta-assistant-img {
     background-image: url('../images/projects/insta-assitant.jpg');
     background-size: contain !important;
+}
+
+.second-row-projects{
+display: none;
+}
+
+#show-less{
+    display: none;
 }
 
 @media (max-width: 425px) {
