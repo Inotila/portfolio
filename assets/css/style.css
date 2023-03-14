@@ -298,11 +298,12 @@ footer {
     border-top: 0px solid rgba(0, 0, 0, .0);
 }
 
-.up-btn{
+#top-btn{
     z-index: 99999999;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    /* display: none !important; */
+    position: fixed;
+    bottom: 20px;
+    right: 10px; 
     width: 5vh;
     height: 5vh;
     background-position: 50% 50%;

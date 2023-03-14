@@ -30,7 +30,7 @@
 
 <body class="d-flex flex-column h-100">
     <!-- nav bar -->
-    <nav class="navbar d-block" role="navigation">
+    <nav id="navigation" class="navbar d-block" role="navigation">
         <div class="row w-100 d-flex flex-row">
             <div class="col-md-4">
                 <div id="logo-text" class="navbar-brand d-none d-md-block">
@@ -53,7 +53,8 @@
                         <ul class="navbar-nav w-auto mx-auto">
                             <li class="nav-item dropdown d-lg-flex flex-lg-row">
                                 <a class="nav-link active pb-0" aria-current="page" href="#home-section">Home</a>
-                                <a class="nav-link activen pb-0" aria-current="page" href="#projects-section">Projects</a>
+                                <a class="nav-link activen pb-0" aria-current="page"
+                                    href="#projects-section">Projects</a>
                                 <a class="nav-link activen pb-0" aria-current="page" href="#skills-section">Tools</a>
                                 <a class="nav-link active pb-0 pr-0" aria-current="page"
                                     href="#my-profile-section">Profile</a>
@@ -61,7 +62,7 @@
                                     aria-expanded="false">
                                 </a>
                                 <div class="dropdown-menu border-0" aria-labelledby="nav-menu-link">
-                                    <a  href="#home-section" id="home-nav-link" data-toggle="dropdown"
+                                    <a href="#home-section" id="home-nav-link" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">
                                         Home
                                     </a>
@@ -70,9 +71,9 @@
                                         Projects
                                     </a>
                                     <a href="#skills-section" id="about-me-nav-link" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                   Tools
-                                </a>
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Tools
+                                    </a>
                                     <a href="#my-profile-section" id="about-me-nav-link" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">
                                         Profile
@@ -471,7 +472,8 @@
                             </div>
                             <div class="col-sm-12 col-md-12 mt-3 home-page-btn-container ">
                                 <div class="d-flex justify-content-center">
-                                    <a id="show-more" href="#" class="btn homepage-btn"><i class="fa-solid fa-circle-chevron-up"></i></i> show more</a>
+                                    <a id="show-more" href="#" class="btn homepage-btn"><i
+                                            class="fa-solid fa-circle-chevron-up"></i></i> show more</a>
                                 </div>
                             </div>
                             <!-- projects second row -->
@@ -606,7 +608,8 @@
                             </div>
                             <div class="col-sm-12 col-md-12 my-3 home-page-btn-container">
                                 <div class="d-flex justify-content-center">
-                                    <a id="show-less" href="#" class="btn homepage-btn"><i class="fas fa-chevron-up"></i> show less</a>
+                                    <a id="show-less" href="#" class="btn homepage-btn"><i
+                                            class="fas fa-chevron-up"></i> show less</a>
                                 </div>
                             </div>
                         </div>
@@ -614,7 +617,11 @@
                 </div>
             </div>
         </div>
-        <a onclick="topFunction()" href="#" id="myBtn" title="Go to top" class="up-btn d-flex justify-content-center mb-3 mr-1"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>    </div>
+        <a onclick="topFunction()" href="#" id="top-btn" title="Go to top"
+            class="d-md-none d-flex justify-content-center mb-3 mr-1"><i class="fa fa-arrow-up"
+                aria-hidden="true"></i>
+        </a>
+    </div>
     <footer class="footer mt-auto py-3">
         <!-- social media icons -->
         <p class="m-0 text-center social-media">Find me:
